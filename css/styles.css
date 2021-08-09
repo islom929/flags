@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Light.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-ExtraBold.woff2") format("woff2"),
+      url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-SemiBold.woff2") format("woff2"),
+      url("../fonts/NunitoSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #F2F2F2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.body--dark {
+  background-color:#202C36;
+}
+
+.site-header {
+  background-color:#FFFFFF;
+}
+
+.dark-mode__button {
+  padding-left: 28px;
+  background-image: url("../img/moon-black.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center left;
+}
+.body--dark .site-header{
+  background-color: #2B3844;
+}
+
+.body--dark .header__title{
+  color: #fff;
+}
+
+.body--dark .dark-mode__button {
+  background-image: url("../img/moon-white.svg");
+  color: #fff;
+}
+
+.body--dark .hero-top__input {
+  background-color: #2B3844;
+  background-image: url("../img/icon-search-white.svg");
+}
+
+.body--dark .hero-top__input::placeholder {
+  color: #fff;
+
+}
+
+.body--dark .hero-top__select {
+  background-color: #202C36;
+  color: #fff;
+}
+
+
+.hero-top__input {
+  padding-left: 74px;
+  background-image: url("../img/icon-search-black.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: center left 32px;
+}
+
+.hero-top__select {
+  width: 200px;
+}
+
+.hero__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hero-item__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hero__item {
+  padding: 24px 24px 46px 24px;
+}
