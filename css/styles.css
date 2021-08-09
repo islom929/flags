@@ -132,6 +132,8 @@ img {
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .hero-item__list {
@@ -141,5 +143,50 @@ img {
 }
 
 .hero__item {
-  padding: 24px 24px 46px 24px;
+
+}
+
+.hero-item__img {
+  width: 264px;
+  height: 160px;
+}
+
+.hero-item__box {
+  text-decoration: none;
+  display: block;
+  background-color: #fff;
+}
+
+.hero-item__box  h3{
+  font-family: "Nurito Sans";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  white-space: nowrap;
+  color: #111517;
+}
+
+.hero__text {
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+  margin-bottom: 0;
+}
+
+.hero__text-span {
+  font-weight: 700;
+}
+
+.body--dark .hero-item__box {
+  background-color: #2B3844;
+}
+
+.body--dark .hero__text {
+  color: #fff;
+}
+
+.body--dark .hero-item__box h3 {
+  color: #fff;
 }
