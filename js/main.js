@@ -1,5 +1,5 @@
 var elModeBody = document.querySelector(".body")
-var elModeToggle = elModeBody.querySelector(".dark-mode__button")
+var elModeToggle = elModeBody.querySelector(".header__button-dark")
 
 if(elModeToggle){
   elModeToggle.addEventListener("click", function(){

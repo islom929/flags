@@ -3,200 +3,197 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Hello, world!</title>
+  <title>flag</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body">
 
-  <header class="site-header pt-3 pb-3">
+  <header class="header pt-3 pb-3">
 
-    <div class="headaer__box container-sm d-flex justify-content-between">
-
-      <h1 class="h3 font-weight-bold header__title">Where in the world?</h1>
-
-      <button class="btn dark-mode__button">Dark Mode</button>
-
+    <div class="header__box container-sm d-flex justify-content-between">
+      <a href="#" class="text-decoration-none h3 font-weight-bold header__link "> Where in the world? </a>
+      <button class="header__button-dark btn " type="button">Dark Mode</button>
     </div>
-
 
   </header>
 
-  <main class="site-main">
+<main class="main">
 
-    <section class="hero">
+  <h1 class="visually-hidden">test</h1>
 
-      <div class="hero__box">
+  <section class="hero">
 
-    <div class="hero__top container-sm mt-5 mb-5">
+    <h2 class="visually-hidden">test</h2>
 
-      <form class="header-top__form form-inline my-2 my-lg-0  d-flex justify-content-between" action="https://echo.htmlacademy.ru" method="GET">
+    <div class="hero__box">
 
-        <input class="form-control mr-sm-2 hero-top__input" type="text" placeholder="Search" aria-label="Search">
+      <div class="hero-top container-sm my-5">
 
-      <select class="custom-select hero-top__select ">
-        <option selected>Filter by Region</option>
-        <option value="africa">Africa</option>
-        <option value="America">America</option>
-        <option value="Asia">Asia</option>
-        <option value="Europe">Europe</option>
-        <option value="Oceania">Oceania</option>
-      </select>
+        <form class="hero-top__form form-inline my-2 my-lg-0  d-flex justify-content-between" action="https://echo.htmlacademy.ru" method="GET" >
 
-    </form>
+          <input class="form-control mr-sm-2 hero-top__input" type="search" placeholder="Search" aria-label="Search" name="search">
 
+          <select class="custom-select hero-top__select mt-3 mt-sm-0" name="select">
+              <option selected="selected">Filter by Region</option>
+              <option value="africa">Africa</option>
+              <option value="America">America</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+          </select>
 
-    </div>
+        </form>
 
-<div class="hero-list__box container-md">
+      </div>
+
+    <div class="hero__list-box container-sm">
 
       <ul class="hero__list row ">
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item hero-item__germany mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
             <img src="img/Flag-of-germany.png" class="hero-item__img w-100  rounded-top" height="160" alt="flag of germany">
-            <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Germany</h3>
-            <ul class="hero-item__list ml-3 mr-3 ">
+              <h3 class="h5 my-3 mx-3">Germany</h3>
+            <ul class="hero-item__list mx-3 ">
               <li class="hero-item__item">
                 <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 81,770,900</p>
               </li>
-              <li class="hero-item__item mt-1 mb-1">
+              <li class="hero-item__item my-1">
                 <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Europe</p>
               </li>
-                <li class="hero-item__item">
+              <li class="hero-item__item">
                 <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital: </span>Berlin</p>
               </li>
             </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item hero-item__us mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-us.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of us">
-          <h3 class="h6 mt-3 mb-3 ml-3 mr-3">United States of America</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population: </span>323,947,000</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Americas</p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-us.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of us">
+              <h3 class="h6 my-3 mx-3">United States of America</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital: </span>Washington, D.C.</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population: </span>323,947,000</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Americas</p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital: </span>Washington, D.C.</p>
+              </li>
+            </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item hero-item__brazil mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-brazil.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Brasília">
-          <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Brazil</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population: </span> 206,135,893</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Americas</p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-brazil.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Brasília">
+              <h3 class="h5 my-3 mx-3">Brazil</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Brasília</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population: </span> 206,135,893</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Americas</p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Brasília</p>
+              </li>
+            </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item hero-item__iceland mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-island.png"class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Islands">
-          <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Iceland</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 334,300</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span> Europe</p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-island.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Islands">
+              <h3 class="h5 my-3 mx-3">Iceland</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Reykjavík</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 334,300</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span> Europe</p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Reykjavík</p>
+              </li>
+            </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item hero-item__afghsnistan mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-afghanistan.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Afghanistan">
-          <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Afghanistan</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 27,657,145</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span>Asia</p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6 hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-afghanistan.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Afghanistan">
+              <h3 class="h5 my-3 mx-3">Afghanistan</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Kabul</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 27,657,145</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span>Asia</p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Kabul</p>
+              </li>
+            </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item hero-item__aland mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-aland.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Flag-of-aland">
-          <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Åland Islands</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span>28,875</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Europe</p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-aland.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Flag-of-aland">
+              <h3 class="h5 my-3 mx-3">Åland Islands</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital: </span>Mariehamn</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span>28,875</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region: </span>Europe</p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital: </span>Mariehamn</p>
+              </li>
+            </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item hero-item__albania mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-albania.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Albania">
-          <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Albania</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population: </span>2,886,026</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span>Europe</p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-albania.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Albania">
+              <h3 class="h5 my-3 mx-3">Albania</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span>Tirana</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population: </span>2,886,026</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span>Europe</p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span>Tirana</p>
+              </li>
+            </ul>
           </a>
         </li>
-        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item hero-item__algeria mb-5">
-          <a src="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
-          <img src="img/Flag-of-algeria.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Algeria">
-          <h3 class="h5 mt-3 mb-3 ml-3 mr-3">Algeria</h3>
-          <ul class="hero-item__list ml-3 mr-3">
-            <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 40,400,000</p>
-            </li>
-            <li class="hero-item__item mt-1 mb-1">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span>Africa </p>
-            </li>
+        <li class="hero__item col-lg-3 col-md-4 col-sm-6  hero-item  mb-5">
+          <a href="#" class="hero-item__box rounded-bottom pb-5 text-decoration-none">
+            <img src="img/Flag-of-algeria.png" class="hero-item__img w-100 rounded-top" width="264" height="160" alt="flag of Algeria">
+              <h3 class="h5 my-3 mx-3">Algeria</h3>
+            <ul class="hero-item__list mx-3">
               <li class="hero-item__item">
-              <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Algiers</p>
-            </li>
-          </ul>
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Population:</span> 40,400,000</p>
+              </li>
+              <li class="hero-item__item my-1">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Region:</span>Africa </p>
+              </li>
+              <li class="hero-item__item">
+                <p class="hero__text"><span class="hero__text-span font-weight-bold">Capital:</span> Algiers</p>
+              </li>
+            </ul>
           </a>
         </li>
       </ul>
-</div>
-
+    </div>
 
   </div>
 
   </section>
 
-  </main>
-
+</main>
 
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>

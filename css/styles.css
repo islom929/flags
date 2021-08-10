@@ -76,26 +76,31 @@ img {
   background-color:#202C36;
 }
 
-.site-header {
+.header {
   background-color:#FFFFFF;
 }
 
-.dark-mode__button {
-  padding-left: 28px;
+.header__button-dark {
+  padding-left: 35px;
   background-image: url("../img/moon-black.svg");
   background-repeat: no-repeat;
   background-size: 20px;
-  background-position: center left;
+  background-position: center left 10px;
+
 }
-.body--dark .site-header{
+.body--dark .header{
   background-color: #2B3844;
 }
 
-.body--dark .header__title{
+.header__link {
+  color: #111517;
+}
+
+.body--dark .header__link{
   color: #fff;
 }
 
-.body--dark .dark-mode__button {
+.body--dark .header__button-dark{
   background-image: url("../img/moon-white.svg");
   color: #fff;
 }
@@ -124,6 +129,10 @@ img {
   background-position: center left 32px;
 }
 
+.body--dark .hero-top__input {
+  color: #fff;
+}
+
 .hero-top__select {
   width: 200px;
 }
@@ -149,6 +158,7 @@ img {
 .hero-item__img {
   width: 264px;
   height: 160px;
+  object-fit: cover;
 }
 
 .hero-item__box {
